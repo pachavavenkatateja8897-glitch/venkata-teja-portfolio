@@ -47,7 +47,7 @@ export const profile = {
   /* REPLACE_WITH_RESUME — hosted PDF / Drive link */
   resumeUrl: null as string | null,
   /* REPLACE_WITH_SHOWREEL — mp4/webm URL or /media/showreel.mp4 */
-  showreelUrl: null as string | null,
+  showreelUrl: "/media/showreel.mp4",
   /* REPLACE_WITH_SHOWREEL_POSTER — poster frame for the player */
   showreelPoster: null as string | null,
 };
