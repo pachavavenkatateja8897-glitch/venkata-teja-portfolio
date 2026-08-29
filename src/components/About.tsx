@@ -1,6 +1,6 @@
 import { aboutClose, aboutCombines, aboutLead, profile } from "../data/portfolio";
 import { useISTClock } from "../lib/hooks";
-import { MaskLines, PlaceholderFrame, Reveal } from "./ui";
+import { MaskLines, Reveal, SectionHead } from "./ui";
 
 export function About() {
   const clock = useISTClock();
@@ -24,12 +24,13 @@ export function About() {
 
             <Reveal delay={200}>
               <div className="relative mt-10 max-w-sm">
-                <PlaceholderFrame
-                  label="Portrait"
-                  sub="Placeholder — photo pending"
-                  watermark="PVT"
-                  ratio="aspect-[3/4]"
-                />
+               <div className="relative aspect-[3/4] overflow-hidden border border-line bg-panel">
+  <img
+    src="/media/venkat-teja.png"
+    alt="Pachava Venkata Teja"
+    className="absolute inset-0 h-full w-full object-cover"
+  />
+</div>
                 <div className="mt-3 flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-faint">
                   <span>{profile.location}</span>
                   <span>{clock} IST</span>

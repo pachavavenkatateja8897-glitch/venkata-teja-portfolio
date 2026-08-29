@@ -45,11 +45,11 @@ export const profile = {
   linkedinLabel: "linkedin.com/in/venkata-teja-pachava",
   linkedinUrl: "https://www.linkedin.com/in/venkata-teja-pachava",
   /* REPLACE_WITH_RESUME — hosted PDF / Drive link */
-  resumeUrl: null as string | null,
+  resumeUrl:  "/media/resume.pdf",
   /* REPLACE_WITH_SHOWREEL — mp4/webm URL or /media/showreel.mp4 */
   showreelUrl: "/media/showreel.mp4",
   /* REPLACE_WITH_SHOWREEL_POSTER — poster frame for the player */
-  showreelPoster: null as string | null,
+  showreelPoster:  "/media/showreel-poster.jpeg",
 };
 
 export const marqueeRoles = [
@@ -85,7 +85,7 @@ export const projects: Project[] = [
     ],
     aspect: "aspect-[16/10]",
     /* REPLACE_WITH_PROJECT_01_THUMBNAIL */
-    thumbnail: null,
+    thumbnail: "/media/project-01-thumbnail.png",
     /* REPLACE_WITH_PROJECT_01_VIDEO */
     video: null,
   },
@@ -110,7 +110,7 @@ export const projects: Project[] = [
     ],
     aspect: "aspect-[16/10]",
     /* REPLACE_WITH_PROJECT_02_THUMBNAIL */
-    thumbnail: null,
+    thumbnail:   "/media/project-02-thumbnail.png",
     /* REPLACE_WITH_PROJECT_02_VIDEO */
     video: null,
   },
@@ -135,7 +135,7 @@ export const projects: Project[] = [
     ],
     aspect: "aspect-[16/10]",
     /* REPLACE_WITH_PROJECT_03_THUMBNAIL */
-    thumbnail: null,
+    thumbnail:"/media/project-03-thumbnail.png",
     /* REPLACE_WITH_PROJECT_03_VIDEO */
     video: null,
   },
@@ -159,7 +159,7 @@ export const projects: Project[] = [
     ],
     aspect: "aspect-[16/10]",
     /* REPLACE_WITH_PROJECT_04_THUMBNAIL */
-    thumbnail: null,
+    thumbnail: "/media/project-04-thumbnail.png",
     /* REPLACE_WITH_PROJECT_04_VIDEO */
     video: null,
   },
@@ -188,7 +188,7 @@ export const projects: Project[] = [
       "Generative development through editorial finishing — built for continuity across languages and releases.",
     aspect: "aspect-[21/10]",
     /* REPLACE_WITH_PROJECT_05_THUMBNAIL */
-    thumbnail: null,
+    thumbnail:  "/media/project-05-thumbnail.png",
     /* REPLACE_WITH_PROJECT_05_VIDEO */
     video: null,
   },
@@ -215,7 +215,7 @@ export const aiCreativeTiles: AiTile[] = [
     note: "Prompt-led character sheets with identity held across takes.",
     aspect: "aspect-[4/5]",
     /* REPLACE_WITH_AI_CHARACTER_MEDIA */
-    media: null,
+    media: "/media/AI-01.png",
   },
   {
     index: "AI-02",
@@ -224,7 +224,7 @@ export const aiCreativeTiles: AiTile[] = [
     note: "Worlds and sets developed for sequence-ready continuity.",
     aspect: "aspect-[16/10]",
     /* REPLACE_WITH_AI_ENVIRONMENT_MEDIA */
-    media: null,
+    media:  "/media/AI-02.png",
   },
   {
     index: "AI-03",
@@ -233,7 +233,7 @@ export const aiCreativeTiles: AiTile[] = [
     note: "Generative stills — concept frame through final render.",
     aspect: "aspect-square",
     /* REPLACE_WITH_AI_IMAGE_GEN_MEDIA */
-    media: null,
+    media: "/media/AI-03.png",
   },
   {
     index: "AI-04",
@@ -242,7 +242,7 @@ export const aiCreativeTiles: AiTile[] = [
     note: "Generated motion — iterated for pacing and coherence.",
     aspect: "aspect-video",
     /* REPLACE_WITH_AI_VIDEO_GEN_MEDIA */
-    media: null,
+    media: "/media/AI-04.mp4",
   },
   {
     index: "AI-05",
@@ -251,7 +251,7 @@ export const aiCreativeTiles: AiTile[] = [
     note: "Shot-by-shot sequence iteration toward picture lock.",
     aspect: "aspect-[21/9]",
     /* REPLACE_WITH_AI_SEQUENCE_MEDIA */
-    media: null,
+    media: "/media/AI-05.mp4",
   },
   {
     index: "AI-06",
@@ -260,7 +260,7 @@ export const aiCreativeTiles: AiTile[] = [
     note: "Character and environment continuity across shots and releases.",
     aspect: "aspect-[4/5]",
     /* REPLACE_WITH_AI_CONTINUITY_MEDIA */
-    media: null,
+    media:  "/media/ai-06-continuity.png",
   },
 ];
 
@@ -424,7 +424,7 @@ export const recognition = {
   org: "MAAC MCL Competition",
   detail: "Recognized for an Ichigo social-media ad poster.",
   /** REPLACE_WITH_AWARD_POSTER — image of the Ichigo ad poster / award */
-  poster: null as string | null,
+  poster: "/media/ichigo-award-poster.png",
 };
 
 export const education = [
